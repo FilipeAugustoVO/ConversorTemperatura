@@ -1,0 +1,14 @@
+K para C= C + 273
+F para C= 1, 8 C + 32
+C para K: K - 273
+K para F: (F + 459.67) * 5/9
+
+Como obter um valor da ComboBox
+
+http://csharp.net-informations.com/gui/cs-combobox.htm
+https://stackoverflow.com/questions/15083806/c-sharp-retrieve-the-selected-value-from-a-combobox
+https://stackoverflow.com/questions/26773729/check-if-combobox-value-is-empty
+
+Matematica em C#:
+
+http://rbwhitaker.wikidot.com/c-sharp-math
