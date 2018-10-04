@@ -41,5 +41,10 @@ namespace ConversorTemperatura
 		{
 	
 		}
-	}
+
+        private void lblNumTemperatura_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
 }
