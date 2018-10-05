@@ -1,0 +1,50 @@
+K para C= C - 273, 15
+C para F= C x 1, 8  + 32
+F para C= (F - 32) / 1,8
+F para K= (F + 459,67) x5 5/9
+C para K: K + 273, 15
+K para F: (F + 459.67) * 5/9
+
+Como obter um valor da ComboBox
+
+http://csharp.net-informations.com/gui/cs-combobox.htm
+https://stackoverflow.com/questions/15083806/c-sharp-retrieve-the-selected-value-from-a-combobox	
+
+Matematica em C#:
+
+http://rbwhitaker.wikidot.com/c-sharp-math
+
+Ok, o que eu quero fazer:
+
+1. Converter C pra F e K
+C -> F = C x 1,8 + 32
+
+e
+
+
+C -> K = C - 273, 15
+
+
+
+2. Converter F para C e K
+F -> C = (F - 32) / 1,8
+
+e
+
+F -> K = (F + 459,67) x 5/9	
+
+3. Converter K para C e F
+K -> C = -273,15
+
+e
+
+K -> F = (F + 459.67)
+
+//Celsius pra Fahrenheit e Kelvin
+			/*{
+				if (BoxConverterDe.SelectedIndex.SelectedIndex == -1) //caso nada esteja selecionado
+				{
+					MessageBox.Show("Por favor selecione um tipo de temperatura para converter para outros", "Aviso");
+				}
+			}*/
+
