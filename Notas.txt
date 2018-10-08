@@ -8,7 +8,11 @@ K para F: (F + 459.67) * 5/9
 Como obter um valor da ComboBox
 
 http://csharp.net-informations.com/gui/cs-combobox.htm
-https://stackoverflow.com/questions/15083806/c-sharp-retrieve-the-selected-value-from-a-combobox	
+https://stackoverflow.com/questions/15083806/c-sharp-retrieve-the-selected-value-from-a-combobox
+
+https://www.codeproject.com/Questions/335163/How-to-retrieve-data-from-database-to-combobox
+
+	
 
 Matematica em C#:
 
@@ -48,3 +52,18 @@ K -> F = (F + 459.67)
 				}
 			}*/
 
+Obtendo valores de RadioButtons:
+https://stackoverflow.com/questions/13539051/how-to-get-value-of-radio-buttons
+
+if(radioCelsius.Checked)
+{
+
+}
+else if(radioFahrenheit.Checked)
+{
+
+}
+else if(radioKelvin.Checked)
+{
+
+}
