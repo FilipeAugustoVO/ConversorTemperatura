@@ -7,3 +7,12 @@ C:\Users\Positivo Premium\source\repos\ConversorTemperatura\ConversorTemperatura
 C:\Users\Positivo Premium\source\repos\ConversorTemperatura\ConversorTemperatura\obj\Debug\ConversorTemperatura.csproj.CoreCompileInputs.cache
 C:\Users\Positivo Premium\source\repos\ConversorTemperatura\ConversorTemperatura\obj\Debug\ConversorTemperatura.exe
 C:\Users\Positivo Premium\source\repos\ConversorTemperatura\ConversorTemperatura\obj\Debug\ConversorTemperatura.pdb
+C:\Users\Convidado\Desktop\Projetos C Sharp\ConversorTemperatura\obj\Debug\ConversorTemperatura.csprojAssemblyReference.cache
+C:\Users\Convidado\Desktop\Projetos C Sharp\ConversorTemperatura\obj\Debug\ConversorTemperatura.MainForm.resources
+C:\Users\Convidado\Desktop\Projetos C Sharp\ConversorTemperatura\obj\Debug\ConversorTemperatura.csproj.GenerateResource.cache
+C:\Users\Convidado\Desktop\Projetos C Sharp\ConversorTemperatura\obj\Debug\ConversorTemperatura.csproj.CoreCompileInputs.cache
+C:\Users\Convidado\Desktop\Projetos C Sharp\ConversorTemperatura\obj\Debug\ConversorTemperatura.exe
+C:\Users\Convidado\Desktop\Projetos C Sharp\ConversorTemperatura\obj\Debug\ConversorTemperatura.pdb
+C:\Users\Convidado\Desktop\Projetos C Sharp\ConversorTemperatura\bin\Debug\ConversorTemperatura.exe.config
+C:\Users\Convidado\Desktop\Projetos C Sharp\ConversorTemperatura\bin\Debug\ConversorTemperatura.exe
+C:\Users\Convidado\Desktop\Projetos C Sharp\ConversorTemperatura\bin\Debug\ConversorTemperatura.pdb

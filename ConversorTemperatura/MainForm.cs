@@ -13,23 +13,24 @@ using System.Windows.Forms;
 
 namespace ConversorTemperatura
 {
-	/// <summary>
-	/// Description of MainForm.
-	/// </summary>
-	public partial class MainForm : Form
-	{
-		public MainForm()
-		{
-			//
-			// The InitializeComponent() call is required for Windows Forms designer support.
-			//
-			InitializeComponent();
-			
-			//
-			// TODO: Add constructor code after the InitializeComponent() call.
-			//
-		}
-		void MainFormLoad(object sender, EventArgs e)
+    /// <summary>
+    /// Description of MainForm.
+    /// </summary>
+    public partial class MainForm : Form
+    {
+        public MainForm()
+        {
+            //
+            // The InitializeComponent() call is required for Windows Forms designer support.
+            //
+            InitializeComponent();
+
+            //
+            // TODO: Add constructor code after the InitializeComponent() call.
+            //
+        }
+
+        void MainFormLoad(object sender, EventArgs e)
 		{
 	
 		}
@@ -61,53 +62,34 @@ namespace ConversorTemperatura
         {
             if (radioCelsius.Checked)
             {
-                {
-                    //Celsius pra Fahrenheit
-                   /* double numero, resultado1;
-                    numero = double.Parse(txtNumero.Text);
-                    resultado1 = numero * 1.8 + 32;
-                    txtResultado1.Text; */
-                        
-                    //Celsius pra Kelvin
-                    double numero, resultado2;
-                    numero = double.Parse(txtNumero.Text);
-                    resultado2 = numero - 273.15;
-                    txtResultado2.ToString(); 
-                    // txtResultado2.Text; 
-                }
+                
+                //Celsius para Fahrenheit e Kelvin
+                double numero, resultado1, resultado2;
+                numero = double.Parse(txtNumero.Text);
+                txtResultado1.Text = Convert.ToString(resultado1 = numero * 1.8 + 32);
+                txtResultado2.Text = Convert.ToString(resultado2 = numero + 273.15);
+                
             }
-            /* else
+            else
 
             if (radioFahrenheit.Checked)
             {
-                //Fahrenheit pra Celsius
-                double numero, resultado1;
-                numero = double.parse(txtNumero.Text);
-                resultado1 = (numero - 32) / 1,8;
-                txtResultado1.Text;
-
-                //Fahrenheit pra Kelvin
-                double numero, resultado2;
-                numero = double.parse(txtNumero.Text);
-                resultado2 = (numero + 459, 67) * 5 / 9;
-                txtResultado2.Text;
+                //Fahrenheit pra Celsius e Kelvin
+                double numero, resultado1, resultado2;
+                numero = double.Parse(txtNumero.Text);
+                txtResultado1.Text = Convert.ToString(resultado1 = (numero - 32) / 1.8);
+                txtResultado2.Text = Convert.ToString(resultado2 = (numero + 459.67) * 5 / 9);              
             }
             else 
 
             if (radioKelvin.Checked)
             {
-                //Kelvin pra Celsius
-                double numero, resultado1;
-                numero = double.parse(txtNumero.Text);
-                resultado1 = numero - 273,15;
-                txtResultado1.Text;
-
-                //Kelvin pra Fahrenheit
-                double numero, resultado2;
-                numero = double.parse(txtNumero.Text);
-                resultado2 = (numero + 459, 67);
-                txtResultado2.Text; 
-            }*/
+                //Kelvin para Celsius e Fahrenheit
+                double numero, resultado1, resultado2;
+                numero = double.Parse(txtNumero.Text);
+                txtResultado1.Text = Convert.ToString(resultado1 = numero - 273.15);
+                txtResultado2.Text = Convert.ToString(resultado2 = (numero + 459.67));              
+            }
 
         }
 
