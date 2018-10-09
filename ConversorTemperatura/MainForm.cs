@@ -63,19 +63,20 @@ namespace ConversorTemperatura
             {
                 {
                     //Celsius pra Fahrenheit
-                    double numero, resultado1;
+                   /* double numero, resultado1;
                     numero = double.Parse(txtNumero.Text);
                     resultado1 = numero * 1.8 + 32;
-                    txtResultado1.Text = resultado1;
-
+                    txtResultado1.Text; */
+                        
                     //Celsius pra Kelvin
                     double numero, resultado2;
                     numero = double.Parse(txtNumero.Text);
                     resultado2 = numero - 273.15;
-                    txtResultado2.Text = resultado2;
+                    txtResultado2.ToString(); 
+                    // txtResultado2.Text; 
                 }
             }
-            else
+            /* else
 
             if (radioFahrenheit.Checked)
             {
@@ -105,10 +106,10 @@ namespace ConversorTemperatura
                 double numero, resultado2;
                 numero = double.parse(txtNumero.Text);
                 resultado2 = (numero + 459, 67);
-                txtResultado2.Text;
-            }
+                txtResultado2.Text; 
+            }*/
 
         }
-            
+
     }
 }
